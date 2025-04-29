@@ -1,4 +1,4 @@
-
+# For REVERSE A NUMBER 
 num=int(input("enter the num"))
 revnum=0
 while(num>0):
@@ -8,6 +8,8 @@ while(num>0):
 
 print(num)
 print(revnum)
+
+# CHECK A NUMBER IS PALINDROME OR NOT 
 
 def ispalindrome(num):
     temp=num
@@ -23,6 +25,7 @@ def ispalindrome(num):
         return False
 print(ispalindrome(121))
 
+# ADDING A NUMBER USING LAMBDA FUNCTION
 def add(a,b):
     return a+b
 
@@ -31,7 +34,7 @@ print(x(5,6))
 print(add(5,6))
 
 
-
+# CALCULATE A AREA OF SQ. USING LAMBDA FUNCTION 
 def area (l,b):
     return l*b
 x=lambda l,b: l*b
